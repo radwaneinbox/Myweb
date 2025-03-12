@@ -12,9 +12,12 @@ export function Hero() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h2 className="text-purple-500 text-xl font-semibold mb-4">Hello, I'm</h2>
-            <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-              Radioane<span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-blue-500">Khoubbane</span>
+            <h2 className="text-purple-500 text-lg font-semibold mb-2">Hello, I'm</h2>
+            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
+              <span className="text-3xl md:text-4xl text-purple-400">Radioane </span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-blue-500">
+                Khoubbane
+              </span>
             </h1>
             <p className="text-gray-300 text-lg mb-8">
               Frontend Developer specializing in building exceptional digital experiences.
@@ -36,20 +39,20 @@ export function Hero() {
             </button>
           </motion.div>
           
+          {/* Right Side - Image */}
           <motion.div
-  initial={{ opacity: 0, y: 50 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.5, delay: 0.2 }}
-  className="relative flex justify-center"
->
-  <div className="w-[500px] h-[500px] rounded-full bg-gradient-to-r from-purple-500/40 to-blue-900/40 blur-3xl absolute" />
-  <img
-    src="https://media.licdn.com/dms/image/v2/D4E03AQHpOZPVmEouAA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730480292291?e=1747267200&v=beta&t=7CsRAV52Gn7H-1jfYfwYnrP8WOj50vqmiCD3qLxQgEE"
-    alt="Profile"
-    className="w-[400px] h-[400px] object-cover rounded-full border-8 border-purple-500 shadow-3xl relative z-10"
-  />
-</motion.div>
-
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="relative flex justify-center"
+          >
+            <div className="w-[450px] h-[450px] rounded-full bg-gradient-to-r from-purple-500/40 to-blue-900/40 blur-3xl absolute" />
+            <img
+              src="https://media.licdn.com/dms/image/v2/D4E03AQHpOZPVmEouAA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730480292291?e=1747267200&v=beta&t=7CsRAV52Gn7H-1jfYfwYnrP8WOj50vqmiCD3qLxQgEE"
+              alt="Profile"
+              className="w-[350px] h-[350px] object-cover rounded-full border-8 border-purple-500 shadow-3xl relative z-10"
+            />
+          </motion.div>
 
         </div>
       </div>
