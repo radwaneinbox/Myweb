@@ -22,7 +22,7 @@ const projects = [
   {
     title: 'Portfolio',
     description: 'Showcasing my frontend development skills and projects.',
-    image: 'https://cdn.pixabay.com/photo/2016/11/29/02/31/laptop-1869847_1280.jpg',
+    image: 'https://media.istockphoto.com/id/1322817849/photo/person-viewing-nature-photography-portfolio-website-on-tablet.jpg?s=1024x1024&w=is&k=20&c=u_31eUiOU9yyzPyPhTK2wHyqQFNlTosfek79cb-w_2g=',
     tags: ['HTML', 'CSS', 'JavaScript', 'React', 'Tailwind CSS'],
     github: '#',
     live: '#'
