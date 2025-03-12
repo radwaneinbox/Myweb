@@ -43,7 +43,7 @@ export function About() {
             viewport={{ once: true }}
           >
             <h3 className="text-2xl font-bold text-white mb-6">
-              Passionate Frontend Developer Based in New York
+              Passionate Frontend Developer Based in Morocco
             </h3>
             <p className="text-gray-300 mb-6">
               With over 1 years of experience in web development, student at software engineer in Alx Frond-end Developrs I specialize in creating
