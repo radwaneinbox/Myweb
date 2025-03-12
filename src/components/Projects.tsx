@@ -20,12 +20,13 @@ const projects = [
     live: '#'
   },
   {
-    title: 'Weather Dashboard',
-    description: 'Real-time weather information with interactive maps',
-    image: 'https://cdn.pixabay.com/photo/2015/05/15/01/48/computer-767776_1280.jpg',
-    tags: ['React', 'OpenWeather API'],
+    title: 'Portfolio',
+    description: 'Showcasing my frontend development skills and projects.',
+    image: 'https://cdn.pixabay.com/photo/2016/11/29/02/31/laptop-1869847_1280.jpg',
+    tags: ['HTML', 'CSS', 'JavaScript', 'React', 'Tailwind CSS'],
     github: '#',
     live: '#'
+    
   }
 ];
 
